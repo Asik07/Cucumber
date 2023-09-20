@@ -1,0 +1,480 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-13T04:20:03.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13825965900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2465420800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 209496100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before4()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "to Validate the invalid PhoneNumber",
+        "description": "",
+        "id": "to-validate-the-forgotten-password-functionality;to-validate-the-invalid-phonenumber",
+        "after": [
+          {
+            "result": {
+              "duration": 553668600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after4()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38663600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to Launch the facebook url through chrome browser",
+            "match": {
+              "location": "Stepdefinition.user_have_to_Launch_the_facebook_url_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4333900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to click the frg pwd button",
+            "match": {
+              "location": "Stepdefinition.userHaveToClickTheFrgPwdButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8177600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to enter the invalid phone Number",
+            "match": {
+              "location": "Stepdefinition.userHaveToEnterTheInvalidPhoneNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3799000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to click the serach button",
+            "match": {
+              "location": "Stepdefinition.userHaveToClickTheSerachButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5640900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Have to verify the invalid credential page",
+            "match": {
+              "location": "Stepdefinition.userHaveToVerifyTheInvalidCredentialPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5312400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to close the browser",
+            "match": {
+              "location": "Stepdefinition.user_have_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fgtpwd"
+          },
+          {
+            "name": "@regresion"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the forgotten password functionality",
+    "description": "",
+    "id": "to-validate-the-forgotten-password-functionality",
+    "keyword": "Feature",
+    "uri": "file:FbForgotten.feature",
+    "tags": [
+      {
+        "name": "@fgtpwd",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 41356000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user have to Launch the facebook url through chrome browser",
+            "match": {
+              "location": "Stepdefinition.user_have_to_Launch_the_facebook_url_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-13T04:20:20.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3414717700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2450654300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 193809900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before4()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "ToValidate the invalid username and invalid password in login",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;tovalidate-the-invalid-username-and-invalid-password-in-login",
+        "after": [
+          {
+            "result": {
+              "duration": 117022400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after4()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277193100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to enter the invalid username and invalid password",
+            "match": {
+              "location": "Stepdefinition.userHaveToEnterTheInvalidUsernameAndInvalidPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "greens123@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "greens123"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneNum",
+                  "9876543210"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 329425700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user have to click the login button",
+            "match": {
+              "location": "Stepdefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4217153300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user have to verify invalid credential page",
+            "match": {
+              "location": "Stepdefinition.user_have_to_verify_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 464700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User have to close the browser",
+            "match": {
+              "location": "Stepdefinition.user_have_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7859800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user have to Launch the facebook url through chrome browser",
+            "match": {
+              "location": "Stepdefinition.user_have_to_Launch_the_facebook_url_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-13T04:20:32.716Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1459745100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1091510600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 127864200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before4()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "ToValidate the invalid username and invalid password in login",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;tovalidate-the-invalid-username-and-invalid-password-in-login",
+        "after": [
+          {
+            "result": {
+              "duration": 117592700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after4()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#emails\"}\n  (Session info: chrome\u003d116.0.5845.188)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.10.0\u0027, revision: \u0027c14d967899\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_371\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b71522be4a9102b8ff645aa5e475e20, findElement {using\u003did, value\u003demails}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61146}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61146/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b71522be4a9102b8ff645aa5e475e20\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.step.Stepdefinition.userHaveToEnterTheValidUsernameAndInvalidPassword(Stepdefinition.java:75)\r\n\tat ✽.user have to enter the valid username and invalid password(file:FbLogin.feature:19)\r\n",
+              "duration": 3100596100,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "user have to enter the valid username and invalid password",
+            "match": {
+              "location": "Stepdefinition.userHaveToEnterTheValidUsernameAndInvalidPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "phonenum"
+                ]
+              },
+              {
+                "cells": [
+                  "greens123@gmail.com",
+                  "greens123",
+                  "9876543210"
+                ]
+              },
+              {
+                "cells": [
+                  "java123@gmail.com",
+                  "java123",
+                  "1234567890"
+                ]
+              },
+              {
+                "cells": [
+                  "python123@gmail.com",
+                  "python12",
+                  "56789875432"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 380700,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user have to click the login button",
+            "match": {
+              "location": "Stepdefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user have to verify invalid credential page",
+            "match": {
+              "location": "Stepdefinition.user_have_to_verify_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390300,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User have to close the browser",
+            "match": {
+              "location": "Stepdefinition.user_have_to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login functionality of FaceBook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:FbLogin.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
